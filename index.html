@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- deepikaguptadeepikagupta879@gmail.com -->
+
+    <title>Lucky Number Challenge</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+
+        <h1>🎯 Lucky Number Challenge</h1>
+
+        <p class="subtitle">
+            Guess the secret number between 1 and 10
+        </p>
+
+        <div class="stats">
+            <span>❤️ Lives: <strong id="lives">3</strong></span>
+            <span>🎮 Attempts: <strong id="attempts">0</strong></span>
+            <span>🏆 Score: <strong id="score">0</strong></span>
+        </div>
+
+        <div class="input-section">
+            <input
+                type="number"
+                id="guess"
+                min="1"
+                max="10"
+                placeholder="Enter a number"
+            >
+
+            <button id="checkBtn">
+                Check Guess
+            </button>
+        </div>
+
+        <p id="message">
+            Start guessing...
+        </p>
+
+        <button id="restartBtn">
+            Play Again
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
